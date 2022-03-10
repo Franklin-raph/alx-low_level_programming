@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S $CFILE -masm=intel -mconsole > *.s
+gcc -S $CFILE -masm=intel > *.s
