@@ -12,9 +12,9 @@ int main(void)
 	
 	if (n > 0)
 	{
-		pritntf("%zu is positive\n")
+		printf("%zu is positive\n")
 	} else if (n = 0){
-		pritntf("%zu is zero\n")
+		printf("%zu is zero\n")
 	} else printf("%zu is negative\n ")
 	/* your code goes there */
 	return (0);
