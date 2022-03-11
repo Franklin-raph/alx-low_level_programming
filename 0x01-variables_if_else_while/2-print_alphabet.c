@@ -2,13 +2,14 @@
 
 int main(void)
 {
-	char i; 
+	char i;
 	i = 'a';
+
 	while (i <= 'z')
 	{
 		putchar(i);
 		i++;
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
