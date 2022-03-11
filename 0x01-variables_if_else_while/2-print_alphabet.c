@@ -8,6 +8,7 @@
 int main(void)
 {
 	char i;
+
 	i = 'a';
 
 	while (i <= 'z')
