@@ -6,10 +6,16 @@
 int _islower(int c)
 {
 	int lower;
+	int counter;
 
 	lower = 0;
-	if (c == 'c')
-		return (1);
-	else
-		return (lower);
+	counter = 'a';
+	while (counter <= 'z')
+	{
+		if (c == 'c')
+			return (1);
+		else
+			return (lower);
+		counter++;
+	}	
 }
