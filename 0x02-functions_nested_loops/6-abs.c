@@ -6,7 +6,7 @@
  * Return: The absolute value of a number
  */
 
-int _abs(int)
+int _abs(int r)
 {
 	int r;
 
