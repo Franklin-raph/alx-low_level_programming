@@ -6,7 +6,7 @@
 int _islower(int c)
 {
 	int lower;
-	char val
+	char val;
 
 	lower = 0;
 	val = 'a';
