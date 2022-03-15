@@ -5,17 +5,8 @@
 
 int _islower(int c)
 {
-	int lower;
-	char val;
-
-	lower = 0;
-	val = 'a';
-	while (val <= 'z')
-	{
-		if (val == c)
-			lower = 1;
-		else
-			return (lower);
-		val++;
-	}	
+	if (c >= 'a' && c <= 'z')
+		return (1);
+	else
+		return (0);
 }
