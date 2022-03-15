@@ -12,7 +12,8 @@ int _abs(int r)
 
 	if (r < 0)
 	{
-		_putchar(r*-1);
-	}
+		return (r*-1);
+	} else 
+		return (r)
 	return (0);
 }
