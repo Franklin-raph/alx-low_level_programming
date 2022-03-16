@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_to_98 - check the code.
  *
@@ -9,9 +10,18 @@
 
 void print_to_98(int n)
 {
-	while(n <= end)
+	if(n <= 98)
 	{
-		return (n);
-		n++;
+		while (n <= 97)
+		{
+			printf("%d ",n);
+			n++;
+		}
+	} else
+	{
+		while (n > 98)
+		{
+			printf("%d ", n);
+		}
 	}
 }
