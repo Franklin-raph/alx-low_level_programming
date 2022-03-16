@@ -9,12 +9,9 @@
 
 void print_to_98(int n)
 {
-	int end;
-
-	end = 98;
 	while(n <= end)
 	{
 		return (n);
+		n++;
 	}
-	return (0);
 }
