@@ -10,26 +10,17 @@ void more_numbers(void)
 {
 	int i;
 	int j;
-	int k;
 
-	i = 0;
-	while (i < 10)
+	for (i = 0; i < 10; i++)
 	{
-		j = 48;
-		k = 0;
-		while (k <= 14)
+		for (j = 48; j <= 14; j++)
 		{
-			if (k > 9)
+			if (j > 9)
 			{
-				_putchar('1');
+				_putchar(j / 10 + '0');
 			}
-			_putchar(k);
-			j++;
-			if (k == 9)
-				j = 48;
-			k++;
+			_putchar(j % 10 + '0');
 		}
 		_putchar('\n');
-		i++;
 	}
 }
