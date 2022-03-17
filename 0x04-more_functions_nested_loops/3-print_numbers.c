@@ -1,4 +1,6 @@
 #include "main.h"
+#include "_putchar.c"
+
 /**
  * print_numbers: Print all numbers from 0 to 9
  * 
