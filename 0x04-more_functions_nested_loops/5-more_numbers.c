@@ -1,28 +1,31 @@
 #include "main.h"
-/**
- * more_numbers - Function to print all numbers from 1 to 14 ten times
- *
- * i: the variable for looping ten times
- * j: the variable to print all numbers
- */
 
+/**
+ * more_numbers - prints numbers from 0 to 14 ten times followed by a new line
+ *
+ * Return: void
+ */
 void more_numbers(void)
 {
-        int x;
-        int j;
+	int i;
+	int a;
+	int b;
 
-        x = 0;
-        while (x < 10)
-        {
-                j = 48
-                while (j <= 14)
-                {
-                        if (j > 9)
-                                _putchar(49);
-                        _putchar(j);
-                        j++;
-                }
-                _putchar('\n');
-                x++;
-        }
+	a = 0;
+	while (a < 10)
+	{
+		i = 48;
+		b = 0;
+		while (b <= 14)
+		{
+			if (b > 9)
+				_putchar('1');
+			_putchar(i++);
+			if (b == 9)
+				i = 48;
+			b++;
+		}
+		_putchar('\n');
+		a++;
+	}
 }
