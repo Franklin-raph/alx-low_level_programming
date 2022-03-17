@@ -6,7 +6,7 @@
  * j: the variable to print all numbers
  */
 
-void more_numbers(void);
+void more_numbers(void)
 {
 	int i;
 	int j;
