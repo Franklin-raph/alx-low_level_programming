@@ -8,11 +8,11 @@
 
 void more_numbers(void)
 {
-        int i;
+        int x;
         int j;
 
-        i = 0;
-        while (i < 10)
+        x = 0;
+        while (x < 10)
         {
                 j = 48
                 while (j <= 14)
@@ -23,6 +23,6 @@ void more_numbers(void)
                         j++;
                 }
                 _putchar('\n');
-                i++;
+                x++;
         }
 }
