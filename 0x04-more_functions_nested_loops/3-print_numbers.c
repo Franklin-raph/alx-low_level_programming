@@ -1,20 +1,31 @@
 #include "main.h"
 
 /**
- * print_numbers - Print all numbers from 0 to 9
+ * more_numbers - prints numbers from 0 to 14 ten times followed by a new line
  *
  * Return: void
  */
-
-void print_numbers(void)
+void more_numbers(void)
 {
-	int num;
+	int i;
+	int a;
+	int b;
 
-	num = 48;
-	while (num <= 57)
+	a = 0;
+	while (a < 10)
 	{
-		_putchar(num);
-		num++;
+		i = 48;
+		b = 0;
+		while (b <= 14)
+		{
+			if (b > 9)
+				_putchar('1');
+			_putchar(i++);
+			if (b == 9)
+				i = 48;
+			b++;
+		}
+		_putchar('\n');
+		a++;
 	}
-	_putchar('\n');
 }
