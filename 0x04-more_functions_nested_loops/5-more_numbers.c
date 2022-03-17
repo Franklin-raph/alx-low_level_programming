@@ -10,17 +10,26 @@ void more_numbers(void)
 {
 	int i;
 	int j;
+	int k;
 
 	i = 0;
-	j = 48;
 	while (i < 10)
 	{
-		while (j <= 4952)
+		j = 48;
+		k = 0;
+		while (k <= 14)
 		{
-			_putchar(j);
+			if (k > 9)
+			{
+				_putchar('1');
+			}
+			_putchar(k);
 			j++;
+			if (k == 9)
+				j = 48;
+			k++;
 		}
+		_putchar('\n');
 		i++;
 	}
-	_putchar('\n');
 }
